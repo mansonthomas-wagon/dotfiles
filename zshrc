@@ -70,3 +70,12 @@ export EDITOR=code
 
 # Set ipdb as the default Python debugger
 export PYTHONBREAKPOINT=ipdb.set_trace
+export PYENV_ROOT="$HOME/.pyenv"
+[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
+
+export PYTHONPATH="$PYTHONPATH:/Users/thomasmanson/code/mansonthomas-wagon/04-Decision-Science/01-Project-Setup/data-context-and-setup"
+
+export GOOGLE_APPLICATION_CREDENTIALS=/Users/thomasmanson/.cred/lewagon-bootcamp-sa-vibrant-beanbag-420413-499b2e8ea7db.json
+
+
